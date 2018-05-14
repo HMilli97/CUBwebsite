@@ -4,6 +4,105 @@ html {
 }
 header {
     background: #000080;
+    border: 5px solid white;
+    outline-style: outset;
+    outline-color: skyblue;
+}
+.head {
+    margin-top: -10px;
+    margin-left: 10px;
+    font-family: "Arial";
+}
+.menu {
+    text-align: center;
+    margin-left: 200px;
+}
+li {
+    display: inline;
+}
+.logo {
+    margin-left: 10px;
+    margin-top: -15px;
+}
+.menu {margin-top: -170px;
+    margin-left: 250px;
+}
+.intro {
+    text-align: center;
+    font-family: "Arial";
+    color: black;
+    font-size: 80%;
+    width: 50%;
+    margin-left: 300px;
+    
+}
+
+.contactlist {
+    font-size: 25px;
+    margin-left: -5px;
+    list-style-type: circle;
+}
+nav{
+    color: black;
+    font-family:"Arial";
+}
+.events {
+    display:inline-flex
+    
+}
+
+.currentevents{
+    color:black;
+    font-family: "Arial";
+    width: 400px;
+    margin-right: 200px;
+}
+form {
+    font-family: "Arial";
+    color: black;
+}
+.pastevents{
+    color:black;
+    font-family: "Arial";
+    width: 400px;
+}
+p1 {
+    background: red;
+    
+}
+.promo{
+    text-align: center;
+    background: white;
+    border-radius:10px;
+    width: 100px;
+    margin-left: 150px;
+}
+.john {
+    text-align:center;
+    width: 300px;
+    margin-right: 40px;
+    border-radius: 15px;
+    border-color: black;
+    background: white;
+}
+.frontpage {
+    display:inline-flex;
+}
+h3 {
+    font-family: "Arial";
+    margin-top: -20px;
+    margin-left: 130px;
+}
+h4 {
+    margin-top: 0px;    
+}
+.media{
+    margin-left: 1250px;
+    margin-top: -170px;
+}
+.fb {
+    margin-left: 5px;
+    margin-top: 5px;
 }
 nav, section {
     background: #FFD700;
